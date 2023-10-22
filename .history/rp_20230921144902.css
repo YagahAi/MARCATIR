@@ -1,0 +1,10 @@
+*{ ... }
+
+body { ... }
+img { ... }
+
+/* **** MEDIA QUERIES **** */
+@media print { ... }
+
+@media  and (max-width: 319;) { ... }
+

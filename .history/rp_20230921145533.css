@@ -1,0 +1,23 @@
+*{ ... }
+
+body { ... }
+img { ... }
+
+/* **** MEDIA QUERIES **** */
+@media print { ... }
+
+@media screen  and (max-width: 319px;) { ... }
+
+@media screen and (max-width: 320px;) { ... }
+
+@media screen and (max-width: 500px;) { ... }
+
+@media screen and (max-width: 600px;) { ... }
+
+@media screen and (max-width: 700px;) { ... }
+
+@media (orientation: landscape) {
+    body{
+        back-image
+    }
+}

@@ -1,0 +1,15 @@
+*{ ... }
+
+body { ... }
+img { ... }
+
+/* **** MEDIA QUERIES **** */
+@media print { ... }
+
+@media screen  and (max-width: 319;) { ... }
+
+@media screen and (max-width: 320;) { ... }
+
+@media screen and (max-width: 500;) { ... }
+
+@media screen and (max-width: 600)

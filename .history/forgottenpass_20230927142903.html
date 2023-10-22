@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="response.css">
+    <title>forgotten-password</title>
+    <style>
+        .marg {
+            margin: 2rem;
+        }
+        .btnn {
+            margin-left: 2rem;
+        }
+        .btnn button{
+            outline: none;
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            border: none;
+            color: white;
+            background-color: blue;
+        }
+        .btnn button:hover {
+            back
+        }
+    </style>
+</head>
+<body>
+<a href="/index.html" class="container .hm">Home</a>
+    <form class="row g-3">
+        <div class="col-auto marg">
+            <label for="username" class="visually-hidden">username</label>
+            <input type="text" id= "username"placeholder="Username"/>
+        </div>
+        <div class="col-auto marg">
+            <label for="inputPassword2" class="visually-hidden">new-Password</label>
+            <input type="password" class="form-control" id="new-Password" placeholder="new-Password" />
+        </div>
+        <div class="col-auto marg">
+            <label for="inputPassword2" class="visually-hidden">confirm new-Password</label>
+            <input type="password" class="form-control" id="confirm-new-Password" placeholder="confirm new-Password" />
+        </div>
+        <div class="col-auto btnn">
+            <button type="submit" class="btn btn-primary mb-3" onclick="forgottenPassword()">confirm</button>
+        </div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>

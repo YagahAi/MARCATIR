@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="response.css">
+    <title>Sign-In</title>
+    <style>
+        form {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input {
+            width: 25%;
+        }
+        button {
+            padding: 0.5rem 1rem;
+        }
+    </style>
+</head>
+<body class="container .sn">
+    <form>
+    <input type="text" id= "username"placeholder="Username"/>
+    <input type="Password" id="password" placeholder="password" />
+    <button type="button" onclick="signIn()">Sign-In</button>
+    <div class="justify-content-end">
+        <a href="forgottenpass.html" style="color: blue;" type="ul">forgotten-password</a>
+    </div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>

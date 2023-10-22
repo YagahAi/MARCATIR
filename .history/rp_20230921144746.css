@@ -1,0 +1,9 @@
+*{ ... }
+
+body { ... }
+img { ... }
+
+/* **** MEDIA QUERIES **** */
+@media print { ... }
+
+@

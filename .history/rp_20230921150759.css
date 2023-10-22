@@ -1,0 +1,25 @@
+/*{ ... }
+
+body { ... }
+img { ... }
+
+/* **** MEDIA QUERIES **** */
+@media print { ... }
+
+@media screen  and (max-width: 319px;) { ... }
+
+@media screen and (max-width: 320px;) { ... }
+
+@media screen and (max-width: 500px;) { ... }
+
+@media screen and (max-width: 600px;) { ... }
+
+@media screen and (max-width: 700px;) { ... }
+
+@media (orientation: landscape) {
+    body{
+        background-image: linear-gradient(-225deg, #ad7307 0%, #5753c9 48%, #6e7ff3 100%);
+    }
+}/*
+
+.container 

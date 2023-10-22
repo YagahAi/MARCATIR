@@ -1,0 +1,10 @@
+const signup = document.getElementById('signUp')
+const signIn = document.querySelector('.signIn')
+
+// console.log(signIn)
+// console.log(signup)
+
+function signIn(){
+    signup.style.display = 'none'
+    signIn.style
+}
